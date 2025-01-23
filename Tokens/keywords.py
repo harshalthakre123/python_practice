@@ -1,0 +1,10 @@
+# str
+# int
+# float
+# complex
+# list
+# tuple
+# dict
+# set
+# boolean
+# frozenset
