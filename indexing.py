@@ -26,15 +26,54 @@
 # 
 # Example  #
 
+#string=================
+
 str1="python"
-print(str1.index('T'))
+#print(str1.index('T'))
 
-print(str1.index('t'))
+#print(str1.index('t'))
 
-print(str1.index('t',3))
+#print(str1.index('t',3))
 
-print(str1.index('o', 2, 4))
+#print(str1.index('o', 2, 4))
 
-print(str1.index('o', 2, 5))
+#print(str1.index('o', 2, 5))
 
-print(str1.index('o', 2))
+#print(str1.index('o', 2))
+
+
+#Slice=============================================================24/01/25
+
+#syntax-----------
+# collection[start: stop: step/direction]
+# collection[start: stop]
+
+
+#1.  findout direction of step
+#(by default it is positive("+"ve) starts with 0 i.e., direction is positive)
+#I- if step value is positive. i.e., positive direction.
+#II- if step value is negative i.e., negative direction.
+
+
+#2. findout start and stop 
+#3- if 1 and 2 direction are matched then we get the answer output but if direction are not matched then we always get empth output.    #
+
+
+s1="python"
+#print(s1[:])
+#print(s1[::])
+
+
+#print(s1[1:4])
+#print(s1[1:4:1])
+#print(s1[1:4:2])
+
+
+#print(s1[::-1])
+
+
+#print(s1[-1:-5: -1])
+
+
+str="i love python"
+#print(str[-4:6: -1])
