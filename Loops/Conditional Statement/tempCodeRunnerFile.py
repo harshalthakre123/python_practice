@@ -1,4 +1,4 @@
- int(input("Enter number1:"))
+int(input("Enter number1:"))
 # b= int (input ("Enter number2:"))
 # solution= int (input('''press-1 for addition
 # press-2 for subtraction
