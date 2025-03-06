@@ -7,7 +7,7 @@ x=10
 y=20
 z=30
 
-#print(not((x>y) and (y>z)))
+# print(not((x>y) and (y>z)))
 
 #not is used for invert 
 #logical operator returns boolean value.
@@ -17,11 +17,10 @@ z=30
 #python is call by reference , not call by value
 a=10
 b=20
-#print(id(a))
-#print(id(b))
-#print( a is b)  #is operator compares the memory address. 
-#print(id(a))
-#print(id(b))
+# print(id(a))
+# print(id(b))
+# print( a is b)  #is operator compares the memory address. 
+
 
 a=[10]
 b=[10]
@@ -31,7 +30,7 @@ b=[10]
 
 
 
-#6 membership operator ()
+#6 membership operator () in and not in
 
 #to find out the character membership in the string or in other words character x is available in the string or not
 # in , not in keywords are used to find out membership.

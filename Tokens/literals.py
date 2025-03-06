@@ -18,12 +18,15 @@ x='H'
 #print(x)
 #print(type(x))
 y="H"
-#print(x)
+#print(y)
 #print(type(y))
+
+
+
 #multiple line string
 z='''H'''
-#print(x)
-#print(type(z))
+# print(z)
+# print(type(z))
 
 #example of multiple line
 
@@ -61,6 +64,10 @@ h=[10, 12.5, 10+2j, "Harshal", [10, 20, 30, 40]]
 
 
 #6-Set
+#            =>collection of unique objects
+#            =>represent in {} with comma seperated objects
+#            =>unordered collection
+#            =>mutable in nature
 
 
 #7.Boolean--

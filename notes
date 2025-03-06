@@ -1,0 +1,340 @@
+# ------* PYTHON *--------
+# 1.on the basis of syntax                                 PVM----JIT speed increase of python
+# easy to learn
+# 2.huge community support
+# 3.Interpreter based
+# 4.Dynamicaly typed
+# 5.plateform independent
+# 6.huge  no of library support
+# extension--->.py->source
+#          .pyc-->byte-code
+
+# Limitation---->disadvantage
+# 1. run time error due to dynamically behaviour.
+# 2.slow as compair to compiler based language.
+# 3.memory management 
+   
+
+#    ---- Token---
+# stack overflow for error find
+# small unit of programs that perform
+# specific task/function is called token.
+
+# 1.Keyword
+# 2.Punctuation
+# 3.Identifier
+# 4.Operator
+# 5.Literals
+
+
+# -----in-built function----
+# max()---->maximum value
+# min()---->minimum value
+# len()--->length 
+# print()--->o/p
+# input()--->run-time value
+# type()--->date-type
+# id()---->memory address
+
+
+# name of  an any object in python are called Identifier
+# python call by reference
+# bitwise Operator(&(and),|(or), ~(not), ^(x-or ),<<(left shift) ,>>(right shift))
+# left shift=no.2*bit
+# return value=arithmetic,assignment, bitwise
+# return boolean=comparision(compare value) true/false, logical ,identity( compare memory address true/false ),membership
+
+# in-built function---->
+# print()--check output
+# input()--->to take number input
+# id()--->to check address
+# type()--->to check data type
+# min()---->
+# max()----->
+# len()---->
+# sum()----->
+
+# --------  Operator---------
+# 1.arithmetic--->(+, -, /, , // ,% ,* )
+# 2.comparision--->(< ,> <=, >= ,== ,!= )
+# 3.assignment---->(=, += ,-= ,= ,/= ,%= ,//= ,*=)
+# 4. identity
+#   ( is, is not)
+# 5.membership
+#   (in ,not in)
+# 6.Bitwise
+
+# Bitwise Operator.
+
+#  Binary---(0,1)
+#  octal--->(0,...7)
+#  Decimal---->(0,...9)
+#  hexadecimal----->(0,...9 A....F a....f)
+
+
+#  ------Literals------
+#  type of Literals--->
+#  |-->numeric type 
+#  |           |---->integer
+#  |           |----->float
+#  |           |----->complex
+#  |---->string type
+#  |           |---->List 
+#  |           |---->tuple
+#  |           |---->Range
+#  |-->Set type
+#  |           |---->set
+#  |           |---->frozenset
+#  |--->Mapping type 
+#  |           |---->dict
+
+#         string---->
+#             syntax: collection of character
+#              represented in  1.-->' ' single-line
+#                   2.-->" "  string
+#                   3.-->'''  '''  multi-line string
+
+#          ------ 
+#         list-------=>collection of objects
+#            syntax     =>represent by []
+#            with comma(,) seperated objects.
+#            object-->homogeneous-(same data-type)
+#                   |-->hetrogeneous->(diff data-type)
+#                   l1=[1,2,3]
+#                   l2=[1,2,3]
+#                   print(id(l1),id(l2))---->same address so mutable data-type
+                                   
+
+
+#         tuple-------
+#            =>collecction of objects(element)
+#            =>represented in () with comma seperated object
+#            =>immutable in nature
+#            x=('s')
+#            y=('s')
+#            print(id(x),id(y))---> diff address so immutable dat type
+
+
+#         dict---------
+
+
+#         set-------
+#            =>collection of unique objects
+#            =>represent in {} with comma seperated objects
+#            =>unordered collection
+#            =>mutable in nature
+
+#         frozenset--------
+#            fset1=frozenset({'sandeep',10,20})
+#            fset2=frozenset({'sandeep',10,20})
+#            print(id(fset1),id(fset2))---diff memory address so immutable data type
+#            =>immutable in nature
+
+
+#            immutable-----|     mutable-----
+#           1.integer      |  1. list
+#           2.string       |  2. dict
+#           3. tuple       |  3. set
+#           4.frozenset    |
+#           5.Boolean      |
+
+
+#        indexing-----
+
+#           ordered collection----
+#           syntax--->collection.index('obj',start,stop)
+#                --->collection.index('obj',start)
+#                ---->collection.index('obj')
+
+#           =>+ve indexing
+#           =>-ve indexing
+
+#       -ve indexing ---------               +ve indexing----             
+#           =>start with -1                   =>start with 0
+#           =>read direction L<--R            =>read direction L--->R
+#           =>write direction L--->R          =>write direction L---->R 
+#           =>end--(end+1)                    =>end--(end-1)
+
+
+#      note -->numeric(integer, float, complex)
+#       ( string,list, tuple---> oredered collection)
+#      (set, frozenset   --->unique element hold, unordered collection)
+#      (dict----> mapped-data)
+
+#             ------ Type casting-------
+#             int()
+#             str()
+#             list()
+#             dict()
+#             tuple()
+#             set()
+#             frozenset()
+
+#      -------   Data types -------
+#      string-->collection of character
+#               oredered collection
+#               indexing support
+#               slicing support
+#               immutable in nature
+#               represented in -->
+#                      1.' ' single-line string
+#                      2 " "  single-line string
+#                      3.''' ''' multi-line string
+#                      x='sandeep'
+#                      print(x)
+#                      print(type(x))
+#                   in-built function for string
+#                    1.max()
+#                    2.min()
+#                    3.len()
+#                    4.id()
+#                    5.ord()
+#                    6.chr()
+#        ------- in-build method   ------- 
+#        1.upper()
+#        2.lower()
+#        3.title()
+#        4.capitalize()   
+#        5.join()--->syntax-('char'.join(object) single par take)
+#        6.split()-->(by default space to break( split) and space (or character) replace by comma) syntax--("char',how many time)
+#        7.index()
+#        8.count()
+#        9.find
+#        10. swapcase  
+
+#       -----list ----- 
+#     =>  collection of  an element ,ordered collection,homogenous,and herogenous
+#     => indexing support
+#     => slicing support
+#     => mutable nature
+#     => represented in [] with comma sepersted element
+
+#  ---- function for list 
+#                    1.max()(same type of data homogenous  )
+#                    2.min()(same type of data homogenous  )
+#                    3.len()( both homo and hetro)
+#                    4.id()( both)
+#                    5.sum()(only integer  )
+#                    6.type( )
+#                    7.list()
+
+#       ------methid of List-----
+#               1.append( add one element in last position )
+#               2.extend(add multiple element in last position)
+#               3.insert(add element in targeted position)
+#               4.pop(remove/delete last element)
+#               5.remove(remove target  any element/object)
+#               6.clear(clear/remove all element)
+#               7.copy(to creat addition copy with diff address)
+#               8.index()
+#               9.count()
+#               10.reverse( reverse list)
+#               11.sort( to arrenge acending order)
+
+#   ------ tuple---------
+#   =>collection of element
+#   =>ordered collection 
+#   =>indexing support
+#   =>slicing support
+#   =>immutable in nature
+#   =>represent in () with comma seperated element
+
+#     function of tuple--------
+#         1.max()
+#         2.min()
+#         3.sum()
+#         4.len()
+#         5.id()
+#         6.type()
+#         7.tuple()
+#       method of tuple--------
+#        1. index()
+#        2. count()
+
+#    dict---------
+#    =>collection of "key":'value' pairs
+#    =>where 'key' must be unique
+#    =>and value may be duplicate
+#    =>indexing not support
+#    =>slicing not support
+#    =>mutable in nature
+#    =>represent in {}with comma seperater element
+
+#    method of dict-----
+#    copy()
+#    clear()
+#    keys()
+#    values()
+#    items()
+#    get()
+#    fromkeys()
+#    update()
+#    setdefault()
+#    pop()
+#    popitem()
+
+#    set--------
+#    =>collection of unique element
+#    =>unodered collection
+#    =>indexing not support
+#    =>slicing not support
+#    =>mutable in nature
+#    =>represent in {} with comma (,)
+#    seperated value
+
+#    function of set----
+#    min()
+#    max()
+#    type()
+#    sum()
+#    len()
+#    id()
+
+#    method of set----
+#    copy()
+#    clear()
+#    add()
+#    remove()
+#    discard()
+#    pop()
+   
+#    -------frozenset----
+#    =>collection of unique element
+#    =>freeze any collection(list,set,tuple,string)
+#    =>unorderedcollection
+#    =>indexing not allowed
+#    =>immutable in nature
+
+#    ----method of frozenset----
+#    copy()
+#    difference()
+
+
+#    -----data type-----
+#    interger--int()  in-built
+#    float--float()
+#    complex--complex()
+#    string--str()
+#    list---list()
+#    tuple--tuple()
+#    dict--dict()
+#    set---set()
+#    frozenset--frozenset()
+#    boolean--bool()
+#    range---range()
+#      in-built function
+#      print()
+#      input()
+#      max()
+#      min()
+#      sum()
+#      len()
+#      type()
+#      id()
+
+#                controle-statement
+#      conditional statement      looping/iterative statement      transfer statement         
+#        if                                 for loop                        contineu
+#       if else                             while  loop                     break
+#       if elif                                                              pass
+#       if elif else
