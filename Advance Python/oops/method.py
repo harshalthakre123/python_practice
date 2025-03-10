@@ -1,7 +1,7 @@
 # methods
     # ----instance method
     # ----class method @classmethod
-    # ----static @ststicmethod
+    # ----static @staticmethod
 # @ is called decorator
 
 
