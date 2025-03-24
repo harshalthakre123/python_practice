@@ -100,21 +100,21 @@
 #           [child]
 
 
-# class Grandparent:
-#     def home(self):
-#         print("from Grandparent")
+class Grandparent:
+    def home(self):
+        print("from Grandparent")
 
-# class Parent(Grandparent):
-#     def car(self):
-#         print("from Parent")
+class Parent(Grandparent):
+    def car(self):
+        print("from Parent")
 
-# class Child(Parent):
-#     def car(self):
-#         print("from Child")
-#         super().car()
-# obj=Child()
-# obj.home()
-# obj.car()
+class Child(Parent):
+    def car(self):
+        print("from Child")
+        super().car()
+obj=Child()
+obj.home()
+obj.car()
 
 
 # ------------------------------------------------------------
@@ -131,7 +131,6 @@ class Child(Parent):
         print("from Child")
         super(Parent, self).car()
 obj=Child()
-# obj.home()
 obj.car()
 
 
