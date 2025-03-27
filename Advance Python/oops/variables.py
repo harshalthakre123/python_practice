@@ -44,6 +44,23 @@
 
 
 
+# class Emp:
+
+#     def __init__(self):
+#         self.name="Harshal Thakre"
+#         self.age= 21
+#         self.salary= 45000
+#     def show(self):
+#         print(self.name, self.age, self.salary)
+
+# e1=Emp()
+# e1.show()
+
+
+
+
+
+
 
 
 
