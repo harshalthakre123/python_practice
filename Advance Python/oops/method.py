@@ -17,7 +17,7 @@
 #     def second(self):
 #         obj1= Student()   #we can create obj for any class in any other class.
 #         obj1.first()
-#         # Student.first(self)
+#         Student.first(self)
 # obj=Student()
 # obj.first()
 # obj.second()
@@ -55,6 +55,8 @@
 
 #3.Static method:- it is static not for dynamic programming and used for greet and hard coding only.
 # @staticmethod
+
+
 # class Book:
 #     def __init__ (self):
 #         print("Constructor Called")
@@ -66,7 +68,7 @@
 #     @staticmethod
 #     def thanks():
 #         print("Thanks for visit")
-# obj=Book
+# obj=Book()
 # Book.welcome()
 # Book.thanks()
 
@@ -75,17 +77,17 @@
 #self hold the address of current classes current object
 ##
 
-# class Book:
-#     def __init__ (self):
-#         print("Constructor Called")
+class Book:
+    def __init__ (self):
+        print("Constructor Called")
 
-#     @classmethod
-#     def welcome(cls, name):
-#         cls.x=name
+    @classmethod
+    def welcome(cls, name):
+        cls.x=name
 
-#     def show(self):
-#         print(Book.x)
-# obj=Book()
-# Book.welcome('Harshal')
-# obj.show()
-# print(Book.x)
+    def show(self):
+        print(Book.x)
+obj=Book()
+Book.welcome('Harshal')
+obj.show()
+print(Book.x)
